@@ -9585,13 +9585,13 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 #mainNav {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
-  transition: background-color 0.2s ease;
+    box-shadow: 0 0.5rem 1rem 1px rgba(0, 0, 0, 0.6);
+    background-color: #060000;
+    transition: background-color 0.2s ease;
 }
 
 #mainNav .navbar-brand {
@@ -9622,13 +9622,13 @@ hr.light {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 1);
   }
   #mainNav .navbar-brand:hover {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 1);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -9638,8 +9638,8 @@ hr.light {
     padding-right: 0;
   }
   #mainNav.navbar-scrolled {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+    background-color: #000;
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
@@ -9648,7 +9648,7 @@ hr.light {
     color: #FFD700;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: white;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #FFD700;
@@ -9658,7 +9658,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, #00a3ea3d 0%, #00A3Eacc 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, #00000073 0%, #000000 100%), url(../img/bg-masthead.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -9729,12 +9729,4 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-}
-
-.bg-parana {
-    background-color: #00A3E0 !important;
-}
-
-.text-primary {
-    color: #00A3E0 !important;
 }
